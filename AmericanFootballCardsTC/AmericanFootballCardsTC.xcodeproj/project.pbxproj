@@ -1,0 +1,525 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8EE17CC71BC6B3D800D7FD33 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EE17CC61BC6B3D800D7FD33 /* AppDelegate.swift */; };
+		8EE17CCA1BC6B3D800D7FD33 /* AmericanFootballCardsTC.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8EE17CC81BC6B3D800D7FD33 /* AmericanFootballCardsTC.xcdatamodeld */; };
+		8EE17CCC1BC6B3D800D7FD33 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EE17CCB1BC6B3D800D7FD33 /* MasterViewController.swift */; };
+		8EE17CCE1BC6B3D800D7FD33 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EE17CCD1BC6B3D800D7FD33 /* DetailViewController.swift */; };
+		8EE17CD11BC6B3D800D7FD33 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8EE17CCF1BC6B3D800D7FD33 /* Main.storyboard */; };
+		8EE17CD31BC6B3D800D7FD33 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8EE17CD21BC6B3D800D7FD33 /* Assets.xcassets */; };
+		8EE17CD61BC6B3D800D7FD33 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8EE17CD41BC6B3D800D7FD33 /* LaunchScreen.storyboard */; };
+		8EE17CE11BC6B3D800D7FD33 /* AmericanFootballCardsTCTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EE17CE01BC6B3D800D7FD33 /* AmericanFootballCardsTCTests.swift */; };
+		8EE17CEC1BC6B3D800D7FD33 /* AmericanFootballCardsTCUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EE17CEB1BC6B3D800D7FD33 /* AmericanFootballCardsTCUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8EE17CDD1BC6B3D800D7FD33 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8EE17CBB1BC6B3D800D7FD33 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8EE17CC21BC6B3D800D7FD33;
+			remoteInfo = AmericanFootballCardsTC;
+		};
+		8EE17CE81BC6B3D800D7FD33 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8EE17CBB1BC6B3D800D7FD33 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8EE17CC21BC6B3D800D7FD33;
+			remoteInfo = AmericanFootballCardsTC;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8EE17CC31BC6B3D800D7FD33 /* AmericanFootballCardsTC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AmericanFootballCardsTC.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8EE17CC61BC6B3D800D7FD33 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8EE17CC91BC6B3D800D7FD33 /* AmericanFootballCardsTC.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AmericanFootballCardsTC.xcdatamodel; sourceTree = "<group>"; };
+		8EE17CCB1BC6B3D800D7FD33 /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
+		8EE17CCD1BC6B3D800D7FD33 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		8EE17CD01BC6B3D800D7FD33 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8EE17CD21BC6B3D800D7FD33 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8EE17CD51BC6B3D800D7FD33 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8EE17CD71BC6B3D800D7FD33 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8EE17CDC1BC6B3D800D7FD33 /* AmericanFootballCardsTCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AmericanFootballCardsTCTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8EE17CE01BC6B3D800D7FD33 /* AmericanFootballCardsTCTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmericanFootballCardsTCTests.swift; sourceTree = "<group>"; };
+		8EE17CE21BC6B3D800D7FD33 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8EE17CE71BC6B3D800D7FD33 /* AmericanFootballCardsTCUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AmericanFootballCardsTCUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8EE17CEB1BC6B3D800D7FD33 /* AmericanFootballCardsTCUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmericanFootballCardsTCUITests.swift; sourceTree = "<group>"; };
+		8EE17CED1BC6B3D800D7FD33 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8EE17CC01BC6B3D800D7FD33 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8EE17CD91BC6B3D800D7FD33 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8EE17CE41BC6B3D800D7FD33 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8EE17CBA1BC6B3D800D7FD33 = {
+			isa = PBXGroup;
+			children = (
+				8EE17CC51BC6B3D800D7FD33 /* AmericanFootballCardsTC */,
+				8EE17CDF1BC6B3D800D7FD33 /* AmericanFootballCardsTCTests */,
+				8EE17CEA1BC6B3D800D7FD33 /* AmericanFootballCardsTCUITests */,
+				8EE17CC41BC6B3D800D7FD33 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8EE17CC41BC6B3D800D7FD33 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8EE17CC31BC6B3D800D7FD33 /* AmericanFootballCardsTC.app */,
+				8EE17CDC1BC6B3D800D7FD33 /* AmericanFootballCardsTCTests.xctest */,
+				8EE17CE71BC6B3D800D7FD33 /* AmericanFootballCardsTCUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8EE17CC51BC6B3D800D7FD33 /* AmericanFootballCardsTC */ = {
+			isa = PBXGroup;
+			children = (
+				8EE17CC61BC6B3D800D7FD33 /* AppDelegate.swift */,
+				8EE17CCB1BC6B3D800D7FD33 /* MasterViewController.swift */,
+				8EE17CCD1BC6B3D800D7FD33 /* DetailViewController.swift */,
+				8EE17CCF1BC6B3D800D7FD33 /* Main.storyboard */,
+				8EE17CD21BC6B3D800D7FD33 /* Assets.xcassets */,
+				8EE17CD41BC6B3D800D7FD33 /* LaunchScreen.storyboard */,
+				8EE17CD71BC6B3D800D7FD33 /* Info.plist */,
+				8EE17CC81BC6B3D800D7FD33 /* AmericanFootballCardsTC.xcdatamodeld */,
+			);
+			path = AmericanFootballCardsTC;
+			sourceTree = "<group>";
+		};
+		8EE17CDF1BC6B3D800D7FD33 /* AmericanFootballCardsTCTests */ = {
+			isa = PBXGroup;
+			children = (
+				8EE17CE01BC6B3D800D7FD33 /* AmericanFootballCardsTCTests.swift */,
+				8EE17CE21BC6B3D800D7FD33 /* Info.plist */,
+			);
+			path = AmericanFootballCardsTCTests;
+			sourceTree = "<group>";
+		};
+		8EE17CEA1BC6B3D800D7FD33 /* AmericanFootballCardsTCUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8EE17CEB1BC6B3D800D7FD33 /* AmericanFootballCardsTCUITests.swift */,
+				8EE17CED1BC6B3D800D7FD33 /* Info.plist */,
+			);
+			path = AmericanFootballCardsTCUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8EE17CC21BC6B3D800D7FD33 /* AmericanFootballCardsTC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8EE17CF01BC6B3D800D7FD33 /* Build configuration list for PBXNativeTarget "AmericanFootballCardsTC" */;
+			buildPhases = (
+				8EE17CBF1BC6B3D800D7FD33 /* Sources */,
+				8EE17CC01BC6B3D800D7FD33 /* Frameworks */,
+				8EE17CC11BC6B3D800D7FD33 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AmericanFootballCardsTC;
+			productName = AmericanFootballCardsTC;
+			productReference = 8EE17CC31BC6B3D800D7FD33 /* AmericanFootballCardsTC.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8EE17CDB1BC6B3D800D7FD33 /* AmericanFootballCardsTCTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8EE17CF31BC6B3D800D7FD33 /* Build configuration list for PBXNativeTarget "AmericanFootballCardsTCTests" */;
+			buildPhases = (
+				8EE17CD81BC6B3D800D7FD33 /* Sources */,
+				8EE17CD91BC6B3D800D7FD33 /* Frameworks */,
+				8EE17CDA1BC6B3D800D7FD33 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8EE17CDE1BC6B3D800D7FD33 /* PBXTargetDependency */,
+			);
+			name = AmericanFootballCardsTCTests;
+			productName = AmericanFootballCardsTCTests;
+			productReference = 8EE17CDC1BC6B3D800D7FD33 /* AmericanFootballCardsTCTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8EE17CE61BC6B3D800D7FD33 /* AmericanFootballCardsTCUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8EE17CF61BC6B3D800D7FD33 /* Build configuration list for PBXNativeTarget "AmericanFootballCardsTCUITests" */;
+			buildPhases = (
+				8EE17CE31BC6B3D800D7FD33 /* Sources */,
+				8EE17CE41BC6B3D800D7FD33 /* Frameworks */,
+				8EE17CE51BC6B3D800D7FD33 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8EE17CE91BC6B3D800D7FD33 /* PBXTargetDependency */,
+			);
+			name = AmericanFootballCardsTCUITests;
+			productName = AmericanFootballCardsTCUITests;
+			productReference = 8EE17CE71BC6B3D800D7FD33 /* AmericanFootballCardsTCUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8EE17CBB1BC6B3D800D7FD33 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Antun Novosel";
+				TargetAttributes = {
+					8EE17CC21BC6B3D800D7FD33 = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+					8EE17CDB1BC6B3D800D7FD33 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = 8EE17CC21BC6B3D800D7FD33;
+					};
+					8EE17CE61BC6B3D800D7FD33 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = 8EE17CC21BC6B3D800D7FD33;
+					};
+				};
+			};
+			buildConfigurationList = 8EE17CBE1BC6B3D800D7FD33 /* Build configuration list for PBXProject "AmericanFootballCardsTC" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8EE17CBA1BC6B3D800D7FD33;
+			productRefGroup = 8EE17CC41BC6B3D800D7FD33 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8EE17CC21BC6B3D800D7FD33 /* AmericanFootballCardsTC */,
+				8EE17CDB1BC6B3D800D7FD33 /* AmericanFootballCardsTCTests */,
+				8EE17CE61BC6B3D800D7FD33 /* AmericanFootballCardsTCUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8EE17CC11BC6B3D800D7FD33 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EE17CD61BC6B3D800D7FD33 /* LaunchScreen.storyboard in Resources */,
+				8EE17CD31BC6B3D800D7FD33 /* Assets.xcassets in Resources */,
+				8EE17CD11BC6B3D800D7FD33 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8EE17CDA1BC6B3D800D7FD33 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8EE17CE51BC6B3D800D7FD33 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8EE17CBF1BC6B3D800D7FD33 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EE17CC71BC6B3D800D7FD33 /* AppDelegate.swift in Sources */,
+				8EE17CCA1BC6B3D800D7FD33 /* AmericanFootballCardsTC.xcdatamodeld in Sources */,
+				8EE17CCC1BC6B3D800D7FD33 /* MasterViewController.swift in Sources */,
+				8EE17CCE1BC6B3D800D7FD33 /* DetailViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8EE17CD81BC6B3D800D7FD33 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EE17CE11BC6B3D800D7FD33 /* AmericanFootballCardsTCTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8EE17CE31BC6B3D800D7FD33 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EE17CEC1BC6B3D800D7FD33 /* AmericanFootballCardsTCUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8EE17CDE1BC6B3D800D7FD33 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8EE17CC21BC6B3D800D7FD33 /* AmericanFootballCardsTC */;
+			targetProxy = 8EE17CDD1BC6B3D800D7FD33 /* PBXContainerItemProxy */;
+		};
+		8EE17CE91BC6B3D800D7FD33 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8EE17CC21BC6B3D800D7FD33 /* AmericanFootballCardsTC */;
+			targetProxy = 8EE17CE81BC6B3D800D7FD33 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8EE17CCF1BC6B3D800D7FD33 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8EE17CD01BC6B3D800D7FD33 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8EE17CD41BC6B3D800D7FD33 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8EE17CD51BC6B3D800D7FD33 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8EE17CEE1BC6B3D800D7FD33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8EE17CEF1BC6B3D800D7FD33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8EE17CF11BC6B3D800D7FD33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AmericanFootballCardsTC/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = novosel.antun.AmericanFootballCardsTC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8EE17CF21BC6B3D800D7FD33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AmericanFootballCardsTC/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = novosel.antun.AmericanFootballCardsTC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8EE17CF41BC6B3D800D7FD33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AmericanFootballCardsTCTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = novosel.antun.AmericanFootballCardsTCTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AmericanFootballCardsTC.app/AmericanFootballCardsTC";
+			};
+			name = Debug;
+		};
+		8EE17CF51BC6B3D800D7FD33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AmericanFootballCardsTCTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = novosel.antun.AmericanFootballCardsTCTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AmericanFootballCardsTC.app/AmericanFootballCardsTC";
+			};
+			name = Release;
+		};
+		8EE17CF71BC6B3D800D7FD33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = AmericanFootballCardsTCUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = novosel.antun.AmericanFootballCardsTCUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = AmericanFootballCardsTC;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		8EE17CF81BC6B3D800D7FD33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = AmericanFootballCardsTCUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = novosel.antun.AmericanFootballCardsTCUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = AmericanFootballCardsTC;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8EE17CBE1BC6B3D800D7FD33 /* Build configuration list for PBXProject "AmericanFootballCardsTC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8EE17CEE1BC6B3D800D7FD33 /* Debug */,
+				8EE17CEF1BC6B3D800D7FD33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8EE17CF01BC6B3D800D7FD33 /* Build configuration list for PBXNativeTarget "AmericanFootballCardsTC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8EE17CF11BC6B3D800D7FD33 /* Debug */,
+				8EE17CF21BC6B3D800D7FD33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8EE17CF31BC6B3D800D7FD33 /* Build configuration list for PBXNativeTarget "AmericanFootballCardsTCTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8EE17CF41BC6B3D800D7FD33 /* Debug */,
+				8EE17CF51BC6B3D800D7FD33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8EE17CF61BC6B3D800D7FD33 /* Build configuration list for PBXNativeTarget "AmericanFootballCardsTCUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8EE17CF71BC6B3D800D7FD33 /* Debug */,
+				8EE17CF81BC6B3D800D7FD33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		8EE17CC81BC6B3D800D7FD33 /* AmericanFootballCardsTC.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				8EE17CC91BC6B3D800D7FD33 /* AmericanFootballCardsTC.xcdatamodel */,
+			);
+			currentVersion = 8EE17CC91BC6B3D800D7FD33 /* AmericanFootballCardsTC.xcdatamodel */;
+			path = AmericanFootballCardsTC.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 8EE17CBB1BC6B3D800D7FD33 /* Project object */;
+}
