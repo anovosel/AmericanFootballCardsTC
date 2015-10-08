@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>section</key>
+		<string>AFC-NORTH</string>
+		<key>teams</key>
+		<array>
+			<string>Baltimore Ravens</string>
+			<string>Cincinnati Bengals</string>
+			<string>Cleveland Browns</string>
+			<string>Pittsburgh Steelers</string>
+		</array>
+	</dict>
+	<dict>
+		<key>section</key>
+		<string>NFC-NORTH</string>
+		<key>teams</key>
+		<array>
+			<string>Chicago Bears</string>
+			<string>Detroit Lions</string>
+			<string>Green Bay Packers</string>
+			<string>Minnesota Vikings</string>
+		</array>
+	</dict>
+	<dict>
+		<key>section</key>
+		<string>AFC-SOUTH</string>
+		<key>teams</key>
+		<array>
+			<string>Houston Texans</string>
+			<string>Indianapolis Colts</string>
+			<string>Jacksonville Jaguars</string>
+			<string>Tennessee Titans</string>
+		</array>
+	</dict>
+	<dict>
+		<key>section</key>
+		<string>NFC- SOUTH</string>
+		<key>teams</key>
+		<array>
+			<string>Atlanta Falcons</string>
+			<string>Carolina Panthers</string>
+			<string>New Orleans Saints</string>
+			<string>Tampa Bay Buccaneers</string>
+		</array>
+	</dict>
+	<dict>
+		<key>section</key>
+		<string>AFC-EAST</string>
+		<key>teams</key>
+		<array>
+			<string>Buffalo Bills</string>
+			<string>Miami Dolphins</string>
+			<string>New England Patriots</string>
+			<string>New York Jets</string>
+		</array>
+	</dict>
+	<dict>
+		<key>section</key>
+		<string>NFC-EAST</string>
+		<key>teams</key>
+		<array>
+			<string>Dallas Cowboys</string>
+			<string>New York Giants</string>
+			<string>Philadelphia Eagles</string>
+			<string>Washington Redskins</string>
+		</array>
+	</dict>
+	<dict>
+		<key>section</key>
+		<string>AFC-WEST</string>
+		<key>teams</key>
+		<array>
+			<string>Denver Broncos</string>
+			<string>Kansas City Chiefs</string>
+			<string>Oakland Raiders</string>
+			<string>San Diego Chargers</string>
+		</array>
+	</dict>
+	<dict>
+		<key>section</key>
+		<string>NFC-WEST</string>
+		<key>teams</key>
+		<array>
+			<string>Arizona Cardinals</string>
+			<string>San Francisco 49ers</string>
+			<string>Seattle Seahawks</string>
+			<string>ST. Louis Rams</string>
+		</array>
+	</dict>
+</array>
+</plist>
