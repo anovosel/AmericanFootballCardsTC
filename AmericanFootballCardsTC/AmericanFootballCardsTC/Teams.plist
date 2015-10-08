@@ -7,10 +7,30 @@
 		<string>AFC-NORTH</string>
 		<key>teams</key>
 		<array>
-			<string>Baltimore Ravens</string>
-			<string>Cincinnati Bengals</string>
-			<string>Cleveland Browns</string>
-			<string>Pittsburgh Steelers</string>
+			<dict>
+				<key>teamName</key>
+				<string>Baltimore Ravens</string>
+				<key>image</key>
+				<string>baltimoreRavens</string>
+			</dict>
+			<dict>
+				<key>teamName</key>
+				<string>Cincinnati Bengals</string>
+				<key>image</key>
+				<string>cincinnatiBengals</string>
+			</dict>
+			<dict>
+				<key>teamName</key>
+				<string>Cleveland Browns</string>
+				<key>image</key>
+				<string>clevelandBrowns</string>
+			</dict>
+			<dict>
+				<key>teamName</key>
+				<string>Pittsburgh Steelers</string>
+				<key>image</key>
+				<string>pittsburghSteelers</string>
+			</dict>
 		</array>
 	</dict>
 	<dict>
@@ -18,10 +38,30 @@
 		<string>NFC-NORTH</string>
 		<key>teams</key>
 		<array>
-			<string>Chicago Bears</string>
-			<string>Detroit Lions</string>
-			<string>Green Bay Packers</string>
-			<string>Minnesota Vikings</string>
+			<dict>
+				<key>teamName</key>
+				<string>Chicago Bears</string>
+				<key>image</key>
+				<string>chicagoBears</string>
+			</dict>
+			<dict>
+				<key>teamName</key>
+				<string>Detroit Lions</string>
+				<key>image</key>
+				<string>detroitLions</string>
+			</dict>
+			<dict>
+				<key>teamName</key>
+				<string>Green Bay Packers</string>
+				<key>image</key>
+				<string>greenBayPackers</string>
+			</dict>
+			<dict>
+				<key>teamName</key>
+				<string>Minnesota Vikings</string>
+				<key>image</key>
+				<string>minnesotaVikings</string>
+			</dict>
 		</array>
 	</dict>
 	<dict>
@@ -29,10 +69,30 @@
 		<string>AFC-SOUTH</string>
 		<key>teams</key>
 		<array>
-			<string>Houston Texans</string>
-			<string>Indianapolis Colts</string>
-			<string>Jacksonville Jaguars</string>
-			<string>Tennessee Titans</string>
+			<dict>
+				<key>teamName</key>
+				<string>Houston Texans</string>
+				<key>image</key>
+				<string>houstonTexans</string>
+			</dict>
+			<dict>
+				<key>teamName</key>
+				<string>Indianapolis Colts</string>
+				<key>image</key>
+				<string>indianapolisColts</string>
+			</dict>
+			<dict>
+				<key>teamName</key>
+				<string>Jacksonville Jaguars</string>
+				<key>image</key>
+				<string>jacksonvilleJaguars</string>
+			</dict>
+			<dict>
+				<key>teamName</key>
+				<string>Tennessee Titans</string>
+				<key>image</key>
+				<string>tennesseeTitans</string>
+			</dict>
 		</array>
 	</dict>
 	<dict>
@@ -40,10 +100,30 @@
 		<string>NFC- SOUTH</string>
 		<key>teams</key>
 		<array>
-			<string>Atlanta Falcons</string>
-			<string>Carolina Panthers</string>
-			<string>New Orleans Saints</string>
-			<string>Tampa Bay Buccaneers</string>
+			<dict>
+				<key>teamName</key>
+				<string>Atlanta Falcons</string>
+				<key>image</key>
+				<string>atlantaFalcons</string>
+			</dict>
+			<dict>
+				<key>teamName</key>
+				<string>Carolina Panthers</string>
+				<key>image</key>
+				<string>carolinaPanthers</string>
+			</dict>
+			<dict>
+				<key>teamName</key>
+				<string>New Orleans Saints</string>
+				<key>image</key>
+				<string>newOrleansSaints</string>
+			</dict>
+			<dict>
+				<key>teamName</key>
+				<string>Tampa Bay Buccaneers</string>
+				<key>image</key>
+				<string>tampaBayBuccaneers</string>
+			</dict>
 		</array>
 	</dict>
 	<dict>
@@ -51,10 +131,30 @@
 		<string>AFC-EAST</string>
 		<key>teams</key>
 		<array>
-			<string>Buffalo Bills</string>
-			<string>Miami Dolphins</string>
-			<string>New England Patriots</string>
-			<string>New York Jets</string>
+			<dict>
+				<key>teamName</key>
+				<string>Buffalo Bills</string>
+				<key>image</key>
+				<string>buffaloBills</string>
+			</dict>
+			<dict>
+				<key>teamName</key>
+				<string>Miami Dolphins</string>
+				<key>image</key>
+				<string>miamiDolphins</string>
+			</dict>
+			<dict>
+				<key>teamName</key>
+				<string>New England Patriots</string>
+				<key>image</key>
+				<string>newEnglandPatriots</string>
+			</dict>
+			<dict>
+				<key>teamName</key>
+				<string>New York Jets</string>
+				<key>image</key>
+				<string>newYorkJets</string>
+			</dict>
 		</array>
 	</dict>
 	<dict>
@@ -62,10 +162,30 @@
 		<string>NFC-EAST</string>
 		<key>teams</key>
 		<array>
-			<string>Dallas Cowboys</string>
-			<string>New York Giants</string>
-			<string>Philadelphia Eagles</string>
-			<string>Washington Redskins</string>
+			<dict>
+				<key>teamName</key>
+				<string>Dallas Cowboys</string>
+				<key>image</key>
+				<string>dallasCowboys</string>
+			</dict>
+			<dict>
+				<key>teamName</key>
+				<string>New York Giants</string>
+				<key>image</key>
+				<string>newYorkGiants</string>
+			</dict>
+			<dict>
+				<key>teamName</key>
+				<string>Philadelphia Eagles</string>
+				<key>image</key>
+				<string>philadelphiaEagles</string>
+			</dict>
+			<dict>
+				<key>teamName</key>
+				<string>Washington Redskins</string>
+				<key>image</key>
+				<string>washingtonRedskins</string>
+			</dict>
 		</array>
 	</dict>
 	<dict>
@@ -73,10 +193,30 @@
 		<string>AFC-WEST</string>
 		<key>teams</key>
 		<array>
-			<string>Denver Broncos</string>
-			<string>Kansas City Chiefs</string>
-			<string>Oakland Raiders</string>
-			<string>San Diego Chargers</string>
+			<dict>
+				<key>teamName</key>
+				<string>Denver Broncos</string>
+				<key>image</key>
+				<string>denverBroncos</string>
+			</dict>
+			<dict>
+				<key>teamName</key>
+				<string>Kansas City Chiefs</string>
+				<key>image</key>
+				<string>kansasCityChiefs</string>
+			</dict>
+			<dict>
+				<key>teamName</key>
+				<string>Oakland Raiders</string>
+				<key>image</key>
+				<string>oaklandRaiders</string>
+			</dict>
+			<dict>
+				<key>teamName</key>
+				<string>San Diego Chargers</string>
+				<key>image</key>
+				<string>sanDiegoChargers</string>
+			</dict>
 		</array>
 	</dict>
 	<dict>
@@ -84,10 +224,30 @@
 		<string>NFC-WEST</string>
 		<key>teams</key>
 		<array>
-			<string>Arizona Cardinals</string>
-			<string>San Francisco 49ers</string>
-			<string>Seattle Seahawks</string>
-			<string>ST. Louis Rams</string>
+			<dict>
+				<key>teamName</key>
+				<string>Arizona Cardinals</string>
+				<key>image</key>
+				<string>arizonaCardinals</string>
+			</dict>
+			<dict>
+				<key>teamName</key>
+				<string>San Francisco 49ers</string>
+				<key>image</key>
+				<string>sanFrancisco49ers</string>
+			</dict>
+			<dict>
+				<key>teamName</key>
+				<string>Seattle Seahawks</string>
+				<key>image</key>
+				<string>seattleSeahawks</string>
+			</dict>
+			<dict>
+				<key>teamName</key>
+				<string>ST. Louis Rams</string>
+				<key>image</key>
+				<string>stLouisRams</string>
+			</dict>
 		</array>
 	</dict>
 </array>

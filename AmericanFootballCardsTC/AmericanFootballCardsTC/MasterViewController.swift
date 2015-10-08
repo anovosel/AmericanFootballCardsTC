@@ -91,6 +91,11 @@ class MasterViewController: UITableViewController, NSFetchedResultsControllerDel
         return self.teams?.count ?? 0
     }
 
+    override func tableView(tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
+        let sectionName = self.teams?.objectAtIndex(section).valueForKey("section")
+        return sectionName as! String
+    }
+    
     override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return self.teams?.objectAtIndex(section).valueForKey("teams")?.count ?? 0
     }
@@ -126,7 +131,8 @@ class MasterViewController: UITableViewController, NSFetchedResultsControllerDel
         let teams = self.teams?.objectAtIndex(indexPath.section)
         let team = teams?.valueForKey("teams")?.objectAtIndex(indexPath.row)
         
-        cell.textLabel!.text = team as! String
+        cell.textLabel!.text = team?.valueForKey("teamName") as! String
+        cell.imageView?.image = UIImage.init(named: team?.valueForKey("image") as! String)
     }
 
     // MARK: - Fetched results controller
