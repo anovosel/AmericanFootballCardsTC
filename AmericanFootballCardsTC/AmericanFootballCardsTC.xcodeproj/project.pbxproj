@@ -7,10 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8E3823BC1BCAD83700E86EF1 /* Steelers.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8E3823BB1BCAD83700E86EF1 /* Steelers.plist */; settings = {ASSET_TAGS = (); }; };
+		8E3823BE1BCADAE400E86EF1 /* Cowboys.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8E3823BD1BCADAE400E86EF1 /* Cowboys.plist */; settings = {ASSET_TAGS = (); }; };
+		8E3823C01BCADAF000E86EF1 /* 49ers.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8E3823BF1BCADAF000E86EF1 /* 49ers.plist */; settings = {ASSET_TAGS = (); }; };
+		8E3A96FA1BC9768300136F7F /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E3A96F91BC9768300136F7F /* DetailViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		8E3A96FC1BC9772400136F7F /* Patriots.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8E3A96FB1BC9772400136F7F /* Patriots.plist */; settings = {ASSET_TAGS = (); }; };
 		8EE17CC71BC6B3D800D7FD33 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EE17CC61BC6B3D800D7FD33 /* AppDelegate.swift */; };
 		8EE17CCA1BC6B3D800D7FD33 /* AmericanFootballCardsTC.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8EE17CC81BC6B3D800D7FD33 /* AmericanFootballCardsTC.xcdatamodeld */; };
 		8EE17CCC1BC6B3D800D7FD33 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EE17CCB1BC6B3D800D7FD33 /* MasterViewController.swift */; };
-		8EE17CCE1BC6B3D800D7FD33 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EE17CCD1BC6B3D800D7FD33 /* DetailViewController.swift */; };
 		8EE17CD11BC6B3D800D7FD33 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8EE17CCF1BC6B3D800D7FD33 /* Main.storyboard */; };
 		8EE17CD31BC6B3D800D7FD33 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8EE17CD21BC6B3D800D7FD33 /* Assets.xcassets */; };
 		8EE17CD61BC6B3D800D7FD33 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8EE17CD41BC6B3D800D7FD33 /* LaunchScreen.storyboard */; };
@@ -38,11 +42,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8E3823BB1BCAD83700E86EF1 /* Steelers.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Steelers.plist; sourceTree = "<group>"; };
+		8E3823BD1BCADAE400E86EF1 /* Cowboys.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Cowboys.plist; sourceTree = "<group>"; };
+		8E3823BF1BCADAF000E86EF1 /* 49ers.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = 49ers.plist; sourceTree = "<group>"; };
+		8E3A96F91BC9768300136F7F /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		8E3A96FB1BC9772400136F7F /* Patriots.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Patriots.plist; sourceTree = "<group>"; };
 		8EE17CC31BC6B3D800D7FD33 /* AmericanFootballCardsTC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AmericanFootballCardsTC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8EE17CC61BC6B3D800D7FD33 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8EE17CC91BC6B3D800D7FD33 /* AmericanFootballCardsTC.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AmericanFootballCardsTC.xcdatamodel; sourceTree = "<group>"; };
 		8EE17CCB1BC6B3D800D7FD33 /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
-		8EE17CCD1BC6B3D800D7FD33 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		8EE17CD01BC6B3D800D7FD33 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8EE17CD21BC6B3D800D7FD33 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8EE17CD51BC6B3D800D7FD33 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -107,7 +115,6 @@
 			children = (
 				8EE17CC61BC6B3D800D7FD33 /* AppDelegate.swift */,
 				8EE17CCB1BC6B3D800D7FD33 /* MasterViewController.swift */,
-				8EE17CCD1BC6B3D800D7FD33 /* DetailViewController.swift */,
 				8EE17CCF1BC6B3D800D7FD33 /* Main.storyboard */,
 				8EE17CD21BC6B3D800D7FD33 /* Assets.xcassets */,
 				8EE17CD41BC6B3D800D7FD33 /* LaunchScreen.storyboard */,
@@ -115,6 +122,11 @@
 				8EE17CC81BC6B3D800D7FD33 /* AmericanFootballCardsTC.xcdatamodeld */,
 				8EE17CF91BC6B67100D7FD33 /* Teams.plist */,
 				8EE17CFD1BC6C49D00D7FD33 /* TeamImages.xcassets */,
+				8E3A96F91BC9768300136F7F /* DetailViewController.swift */,
+				8E3A96FB1BC9772400136F7F /* Patriots.plist */,
+				8E3823BB1BCAD83700E86EF1 /* Steelers.plist */,
+				8E3823BD1BCADAE400E86EF1 /* Cowboys.plist */,
+				8E3823BF1BCADAF000E86EF1 /* 49ers.plist */,
 			);
 			path = AmericanFootballCardsTC;
 			sourceTree = "<group>";
@@ -242,9 +254,13 @@
 			files = (
 				8EE17CD61BC6B3D800D7FD33 /* LaunchScreen.storyboard in Resources */,
 				8EE17CFE1BC6C49D00D7FD33 /* TeamImages.xcassets in Resources */,
+				8E3A96FC1BC9772400136F7F /* Patriots.plist in Resources */,
 				8EE17CD31BC6B3D800D7FD33 /* Assets.xcassets in Resources */,
 				8EE17CD11BC6B3D800D7FD33 /* Main.storyboard in Resources */,
+				8E3823BE1BCADAE400E86EF1 /* Cowboys.plist in Resources */,
 				8EE17CFA1BC6B67100D7FD33 /* Teams.plist in Resources */,
+				8E3823C01BCADAF000E86EF1 /* 49ers.plist in Resources */,
+				8E3823BC1BCAD83700E86EF1 /* Steelers.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,7 +288,7 @@
 				8EE17CC71BC6B3D800D7FD33 /* AppDelegate.swift in Sources */,
 				8EE17CCA1BC6B3D800D7FD33 /* AmericanFootballCardsTC.xcdatamodeld in Sources */,
 				8EE17CCC1BC6B3D800D7FD33 /* MasterViewController.swift in Sources */,
-				8EE17CCE1BC6B3D800D7FD33 /* DetailViewController.swift in Sources */,
+				8E3A96FA1BC9768300136F7F /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -497,6 +513,7 @@
 				8EE17CF21BC6B3D800D7FD33 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8EE17CF31BC6B3D800D7FD33 /* Build configuration list for PBXNativeTarget "AmericanFootballCardsTCTests" */ = {
 			isa = XCConfigurationList;
@@ -505,6 +522,7 @@
 				8EE17CF51BC6B3D800D7FD33 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8EE17CF61BC6B3D800D7FD33 /* Build configuration list for PBXNativeTarget "AmericanFootballCardsTCUITests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +531,7 @@
 				8EE17CF81BC6B3D800D7FD33 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

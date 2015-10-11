@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Date</key>
+		<string>Oct 11</string>
+		<key>Time</key>
+		<string>4:25 PM</string>
+		<key>Team</key>
+		<string>Cowboys</string>
+		<key>TeamImage</key>
+		<string>dallasCowboys</string>
+	</dict>
+	<dict>
+		<key>Date</key>
+		<string>Oct 25</string>
+		<key>Time</key>
+		<string>8:30 PM</string>
+		<key>Team</key>
+		<string>Colts</string>
+		<key>TeamImage</key>
+		<string>indianapolisColts</string>
+	</dict>
+	<dict>
+		<key>Date</key>
+		<string>Oct 25</string>
+		<key>Time</key>
+		<string>1:00 PM</string>
+		<key>Team</key>
+		<string>Jets</string>
+		<key>TeamImage</key>
+		<string>newYorkJets</string>
+	</dict>
+	<dict>
+		<key>Date</key>
+		<string>Oct 29</string>
+		<key>Time</key>
+		<string>8:25 PM</string>
+		<key>Team</key>
+		<string>Dolphins</string>
+		<key>TeamImage</key>
+		<string>miamiDolphins</string>
+	</dict>
+	<dict>
+		<key>Date</key>
+		<string>Nov 08</string>
+		<key>Time</key>
+		<string>1:00 PM</string>
+		<key>Team</key>
+		<string>Redskins</string>
+		<key>TeamImage</key>
+		<string>washingtonRedskins</string>
+	</dict>
+	<dict>
+		<key>Date</key>
+		<string>Nov 15</string>
+		<key>Time</key>
+		<string>4:25 PM</string>
+		<key>Team</key>
+		<string>Giants</string>
+		<key>TeamImage</key>
+		<string>newYorkGiants</string>
+	</dict>
+	<dict>
+		<key>Date</key>
+		<string>Nov 23</string>
+		<key>Time</key>
+		<string>8:30 PM</string>
+		<key>Team</key>
+		<string>Bills</string>
+		<key>TeamImage</key>
+		<string>buffaloBills</string>
+	</dict>
+	<dict>
+		<key>Date</key>
+		<string>Nov 29</string>
+		<key>Time</key>
+		<string>8:30 PM</string>
+		<key>Team</key>
+		<string>Broncos</string>
+		<key>TeamImage</key>
+		<string>denverBrocos</string>
+	</dict>
+	<dict>
+		<key>Date</key>
+		<string>Dec 06</string>
+		<key>Time</key>
+		<string>4:25 PM</string>
+		<key>Team</key>
+		<string>Eagles</string>
+		<key>TeamImage</key>
+		<string>philadelphiaEagles</string>
+	</dict>
+	<dict>
+		<key>Date</key>
+		<string>Dec 13</string>
+		<key>Time</key>
+		<string>1:00 PM</string>
+		<key>Team</key>
+		<string>Texans</string>
+		<key>TeamImage</key>
+		<string>houstonTexans</string>
+	</dict>
+	<dict>
+		<key>Date</key>
+		<string>Dec 20</string>
+		<key>Time</key>
+		<string>1:00 PM</string>
+		<key>Team</key>
+		<string>Titans</string>
+		<key>TeamImage</key>
+		<string>tennesseeTitans</string>
+	</dict>
+	<dict>
+		<key>Date</key>
+		<string>Dec 27</string>
+		<key>Time</key>
+		<string>1:00 PM</string>
+		<key>Team</key>
+		<string>Jets</string>
+		<key>TeamImage</key>
+		<string>newYorkJets</string>
+	</dict>
+	<dict>
+		<key>Date</key>
+		<string>Jan 03</string>
+		<key>Time</key>
+		<string>1:00 PM</string>
+		<key>Team</key>
+		<string>Dolphins</string>
+		<key>TeamImage</key>
+		<string>miamiDolphins</string>
+	</dict>
+</array>
+</plist>
