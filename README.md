@@ -12,3 +12,8 @@ It may be a little provincial of us but it is now football season in the United 
 3) You do not need to make it dynamic we can hard code all NFL and assume the start date is 10/11.  
 
 4) You only need to support 4 teams, Patriots, Steelers, Cowboys, 49ers.
+
+
+Solution:
+
+![Alt text](https://raw.githubusercontent.com/anovosel/AmericanFootballCardsTC/master/MasterViewScreenshot.png "Optional title")
